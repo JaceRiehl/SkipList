@@ -1,14 +1,9 @@
 #ifndef SKIP_NODE_H
 #define SKIP_NODE_H
 
-class SkipNode
-{
+class SkipNode{
 public:
-
-	// default skiplist constuctor
-	SkipNode() {};
-
-	// SkipNode constuctor
+	SkipNode(){};
 	SkipNode(int key, int level)
 	{
 		this->key = key;
